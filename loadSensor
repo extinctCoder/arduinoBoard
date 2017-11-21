@@ -1,4 +1,3 @@
-#include <LiquidCrystal.h>
 #define DT A0
 #define SCK A1
 #define sw 2 //hard calibration switch
