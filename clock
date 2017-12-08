@@ -11,7 +11,6 @@ unsigned long timer;
 
 void setup()
 {
-  Serial.println("Initialize DS3231");;
   clock.begin();
   
   //clock.setDateTime(__DATE__, __TIME__);
