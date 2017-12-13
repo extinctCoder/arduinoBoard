@@ -12,12 +12,12 @@ void setup() {
   pinMode(Light_4,OUTPUT);
   pinMode(Light_5,OUTPUT);
   pinMode(Light_6,OUTPUT);
-  digitalWrite(13,LOW);
-  digitalWrite(13,LOW);
-  digitalWrite(13,LOW);
-  digitalWrite(13,LOW);
-  digitalWrite(13,LOW);
-  digitalWrite(13,LOW);
+  digitalWrite(Light_1,LOW);
+  digitalWrite(Light_2,LOW);
+  digitalWrite(Light_3,LOW);
+  digitalWrite(Light_4,LOW);
+  digitalWrite(Light_5,LOW);
+  digitalWrite(Light_6,LOW);
   Serial.println("Ready...!!!");
 }
 void loop() {
