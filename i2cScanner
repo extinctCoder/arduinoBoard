@@ -1,7 +1,4 @@
-
     #include <Wire.h>
-   
-     
     void setup()
     {
       Wire.begin();
@@ -10,8 +7,6 @@
       while (!Serial);
       Serial.println("\nI2C Scanner");
     }
-     
-     
     void loop()
     {
       byte error, address;
